@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLayout_bgs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lin1_bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/rooms_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_top_backgroung"
+        android:gravity="center"
+        android:maxLength="4"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:textColor="@color/s_green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_neg"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/editdialog_left_selector"
+            android:gravity="center"
+            android:textColor="@color/s_green"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/img_line"
+            android:layout_width="0.5dp"
+            android:layout_height="35dp"
+            android:background="@color/alertdialog_line" />
+
+        <Button
+            android:id="@+id/btn_pos"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:background="@drawable/editdialog_right_selector"
+            android:gravity="center"
+            android:textColor="@color/s_green"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>

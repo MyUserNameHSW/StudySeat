@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudySeat</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_room_list">RoomListActivity</string>
+    <string name="title_activity_msg_content">MsgContentActivity</string>
+    <string name="title_activity_message_list">MessageListActivity</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+    <string name="name">杭州-奇芝</string>
+    <string name="slogan">动感奇芝，触动你的心</string>
+    <string name="email">邮箱 : </string>
+    <string name="email_text">contact@cheezhi.com</string>
+    <string name="phone">电话 : </string>
+    <string name="phone_text">0571—56622731</string>
+    <string name="net_ad">网址 : </string>
+    <string name="net_add_text">http://www.cheezhi.com/</string>
+    <string name="name1">Copyright © Cheezhi Techonology</string>
+    <string name="name2">浙ICP备15028630号-1</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+
+</resources>
